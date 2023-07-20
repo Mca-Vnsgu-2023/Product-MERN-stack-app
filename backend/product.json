@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Smart Watch",
+        "price": "2000"
+    },
+    {
+        "id": 2,
+        "title": "Bluethoot Speaker",
+        "price": "3000"
+    },
+    {
+        "id": 3,
+        "title": "Sony Tv",
+        "price": "40000"
+    },
+    {
+        "id": 4,
+        "title": "IPhone",
+        "price": "80000"
+    },
+    {
+        "id": 5,
+        "title": "Camera",
+        "price": "6000"
+    },
+    {
+        "id": 6,
+        "title": "Smart phone",
+        "price": "40000"
+    }
+]
