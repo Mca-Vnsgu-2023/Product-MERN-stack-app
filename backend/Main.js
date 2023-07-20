@@ -1,3 +1,5 @@
+//start backend run command :  nodemon index.js 
+
 // const express = require("express");
 // const app = express()
 // const port = 3001
