@@ -1,5 +1,5 @@
-const mongoose= require("mongoose");
 const express=require("express");
+const mongoose= require("mongoose");
 const app=express();
 const cors= require("cors")
 require("dotenv").config();
@@ -13,7 +13,7 @@ const port= 3001;
 const ProductRoutes= require('./routes/products')
 app.use('/product',ProductRoutes)
 
-mongoose.connect(process.env.CONNECTION_STRING).then(()=> console.log("MongoDB connected successfully. "))
+mongoose.connect(process.env.MONGOURL).then(()=> console.log("MongoDB connected successfully. "))
 
 app.get('/',(req,res)=>{
     res.send("Hello world..")
