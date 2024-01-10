@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.Router());
 app.use(cors());
 
-const port= 3001;
+const port= process.env.PORT || 3000;
 
 const ProductRoutes= require('./routes/products')
 app.use('/product',ProductRoutes)
